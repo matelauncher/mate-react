@@ -1,3 +1,5 @@
+<img src="./.github/img/screenshot-0.1.0.png" width="500px"/>
+
 # mate-react
 
 MATE is a Minecraft launcher which was created in May/July of 2020 and maintained back in 2021 using React
