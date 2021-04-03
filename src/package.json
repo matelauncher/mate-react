@@ -1,7 +1,7 @@
 {
   "name": "mate-react",
   "productName": "MATE Launcher",
-  "version": "2.3.0",
+  "version": "0.1.0",
   "description": "MATE Launcher",
   "main": "./main.prod.js",
   "author": {
