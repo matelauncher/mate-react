@@ -1,0 +1,10 @@
+{
+    "playing": "Играет в май круфт",
+    "editions": {
+        "java": "на компе",
+        "bedrock": "пе",
+        "dungeons": "дунгенс"
+    },
+    "in_launcher": "открыл лунчер",
+    "main_menu": "меню"
+}

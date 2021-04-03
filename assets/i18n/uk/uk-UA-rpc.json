@@ -1,0 +1,10 @@
+{
+    "playing": "Грає у Майнкрафт",
+    "editions": {
+        "java": "Java Edition",
+        "bedrock": "Bedrock Edition",
+        "dungeons": "Dungeons"
+    },
+    "in_launcher": "Сидить у лаунчері",
+    "main_menu": "Головне меню"
+}

@@ -1,0 +1,205 @@
+/*
+.bg-button {
+    background-position: center;
+    --bg-opacity: 1;
+    background-image: url('./img/btn.png');
+}
+
+.hover\:bg-button:hover {
+    --bg-opacity: 1;
+    background-image: url('./img/btn-hover.png');
+}
+
+.focus\:bg-button:focus {
+    --bg-opacity: 1;
+    background-image: url('./img/btn-focus.png');
+}
+*/
+
+.bg-button {
+  position: relative;
+  top: 0px;
+  left: 6px; /* width of left part (:before) */
+  overflow: visible; /* this make the :before and :after in position:absolute to appear */
+
+  background: url(img/btn/btn.png);
+  height: 64px;
+
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.focus\:bg-button::-moz-focus-inner,
+.focus\:bg-button:focus {
+  border: 0;
+}
+
+.bg-button:before,
+.bg-button:after {
+  content: "";
+  background: url(img/btn/left.png);
+  width: 6px;
+  height: 64px;
+  position: absolute;
+  left: -6px; /* Same as width */
+  top: 0px;
+}
+
+.bg-button:after {
+  background: url(img/btn/right.png);
+  width: 6px;
+  left: auto;
+  right: -6px; /* Same as width */
+}
+
+.hover\:bg-button:hover,
+.hover\:bg-button:hover:before,
+.hover\:bg-button:hover:after {
+  background-position: 0 -64px;
+}
+
+.hover\:bg-button:hover {
+  background: url(img/btn/hover.png);
+}
+.hover\:bg-button:hover:before {
+  background: url(img/btn/left-hover.png);
+}
+.hover\:bg-button:hover:after {
+  background: url(img/btn/right-hover.png);
+}
+
+.focus\:bg-button:focus {
+  background: url(img/btn/focus.png);
+}
+.focus\:bg-button:focus:before {
+  background: url(img/btn/left-focus.png);
+}
+.focus\:bg-button:focus:after {
+  background: url(img/btn/right-focus.png);
+}
+
+.active\:bg-button:active {
+  background: url(img/btn/focus.png);
+}
+.active\:bg-button:active:before {
+  background: url(img/btn/left-focus.png);
+}
+.active\:bg-button:active:after {
+  background: url(img/btn/right-focus.png);
+}
+
+.ui-btn {
+	margin: 0;
+	width: 48px;
+	height:32px;
+	border: 0;
+	outline: 0;
+	background: transparent;
+}
+
+.ui-btn:hover {
+	background: rgba(255,255,255,.1);
+}
+.ui-btn.close:hover {
+	background: #e81123;
+}
+.ui-btn svg path, 
+.ui-btn svg rect, 
+.ui-btn svg polygon {
+	fill: #fff;
+}
+.ui-btn svg {
+  width: 10px;
+  height: 10px;
+}
+
+.closemac {
+    background: #ff5c5c;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #e33e41;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .closemac:active {
+    background: #c14645;
+    border: 1px solid #b03537;
+  }
+  
+  .closemac:active .closebutton {
+    color: #4e0002;
+  }
+  
+  .closebutton {
+    color: #820005;
+    visibility: hidden;
+    cursor: default;
+  }
+  
+  .minimizemac {
+    background: #ffbd4c;
+    line-height: 11px;
+    margin-left: 4px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #e09e3e;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .minimizemac:active {
+    background: #c08e38;
+    border: 1px solid #af7c33;
+  }
+  
+  .minimizemac:active .minimizebutton {
+    color: #5a2607;
+  }
+  
+  .minimizebutton {
+    color: #9a5518;
+    visibility: hidden;
+    cursor: default;
+  }
+  
+  .zoommac {
+    background: #00ca56;
+    line-height: 11px;
+    margin-left: 6px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #14ae46;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .zoommac:active {
+    background: #029740;
+    border: 1px solid #128435;
+  }
+  
+  .zoommac:active .zoombutton {
+    color: #003107;
+  }
+  
+  .zoombutton {
+    color: #006519;
+    visibility: hidden;
+    cursor: default;
+  }
+
+  .buttons {
+    padding-left: 8px;
+    padding-top: 3px;
+    float: left;
+    line-height: 0px;
+  }
+
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+ }

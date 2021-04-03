@@ -1,0 +1,72 @@
+{
+    "logs": {
+        "title": "logs ! "
+    },
+    "credits": {
+        "title": "credits +:)"
+    },
+    "mods": {
+        "title": "mods *+!:)"
+    },
+    "skins": {
+        "title": "skins *!+",
+        "button_upload": "upload a ^* !+ skin *^ ! ",
+        "no_license": "you &* don't !! have a license * ! +:) or it :) xo ! not chosen * ok  !+"
+    },
+    "donate": {
+        "title": "donate ++**",
+        "content": "you don't _ slatt need to donate !+ but if you would +:) to & * support :( the project ** - - ** !++ thats  . ok . "
+    },
+    "404": "this :( page is not :( developed & * or & * not exists +** yet . ^*  !+ ++*",
+    "accounts": {
+        "add": "add  . an +:) account ",
+        "license": "slatt &* ",
+        "pirate": "fuckboy +:)",
+        "form": {
+            "title": "adding . .$ an :( account ** !++ ",
+            "email": "e-mail ** !++ ",
+            "pass": "password :(",
+            "nick": "nickname *+"
+        },
+        "no_accounts": {
+            "top": "you :( don't :( have accounts ",
+            "bottom": "add :( them ! +** "
+        }
+    },
+    "settings": {
+        "title": "settings ! ",
+        "main": {
+            "title": "main . .$"
+        },
+        "java": {
+            "title": "java +:)"
+        },
+        "lang": {
+            "title": "langs +* ",
+            "current": "current ^*  !+  lang :( ",
+            "fallback": "lang just-in-case * slatt _ !"
+        }
+    },
+    "lang": {
+        "ru-RU": "russian :) xo !",
+        "en-US": "english :( *",
+        "de-DE": "german *+ _ slatt !",
+        "uk-UA": "ukrainian ** - ",
+        "kk-KZ": "kazakh *^ ! ",
+        "lv-LV": "latvian *+ _",
+        "cn-CN": "cartinese ++** +:) love ! lit **!++",
+        "lk-LK": "lang of *^ ! kolya",
+        "fz-FZ": "lang ! of frayz :("
+    },
+    "version": {
+        "no_version": {
+            "top": "choose a version ++** ",
+            "bottom": "for &* play & * "
+        }
+    },
+    "play": "play ++**",
+    "post": {
+        "button": "open ** !++ "
+    },
+    "error": "error :("
+}

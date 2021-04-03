@@ -1,0 +1,72 @@
+{
+    "logs": {
+        "title": "Logs"
+    },
+    "credits": {
+        "title": "Paldies"
+    },
+    "mods": {
+        "title": "Mods"
+    },
+    "skins": {
+        "title": "Skins",
+        "button_upload": "Lejupielādēt skinu",
+        "no_license": "Jums nav licences vai tā nav izvēlēta"
+    },
+    "donate": {
+        "title": "Donāts",
+        "content": "Jums nav nepieciešams ziedot, bet, ja jūs varētu atbalstīt projektu-tas ir ok."
+    },
+    "404": "Šī lapa vēl nav izstrādāta vai neeksistē.",
+    "accounts": {
+        "add": "Pievienot kontu",
+        "license": "Licence",
+        "pirate": "Pirate versija",
+        "form": {
+            "title": "Konta pievienošana",
+            "email": "E-pasts",
+            "pass": "Parole",
+            "nick": "Segvārds"
+        },
+        "no_accounts": {
+            "top": "\nJums nav kontu",
+            "bottom": "\nPievienojiet tos!"
+        }
+    },
+    "settings": {
+        "title": "Iestatījums",
+        "main": {
+            "title": "Pamata"
+        },
+        "java": {
+            "title": "Java"
+        },
+        "lang": {
+            "title": "Valodas",
+            "current": "Sarunvalodā",
+            "fallback": "Valoda 'katram gadījumam'"
+        }
+    },
+    "lang": {
+        "ru-RU": "Krievu",
+        "en-US": "Angļu",
+        "de-DE": "Vācu",
+        "uk-UA": "Ukrainas",
+        "kk-KZ": "Kazahstānas",
+        "lv-LV": "Latviešu",
+        "cn-CN": "Kartijsku",
+        "lk-LK": "Koļa valoda",
+        "fz-FZ": "Frajza valoda"
+    },
+    "version": {
+        "no_version": {
+            "top": "Atlasiet versiju",
+            "bottom": "spēlei"
+        }
+    },
+    "play": "Spēlē",
+    "post": {
+        "button": "Atvērt"
+    },
+    "error": "Kļūda"
+}

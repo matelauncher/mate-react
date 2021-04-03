@@ -1,0 +1,72 @@
+{
+    "logs": {
+        "title": "Logs"
+    },
+    "credits": {
+        "title": "Credits"
+    },
+    "mods": {
+        "title": "Mods"
+    },
+    "skins": {
+        "title": "Skins",
+        "button_upload": "Upload a skin",
+        "no_license": "You don't have a license or it not chosen"
+    },
+    "donate": {
+        "title": "Donate",
+        "content": "You don't need to donate but if you would to support the project - thats ok."
+    },
+    "404": "This page is not developed or not exists yet.",
+    "accounts": {
+        "add": "Add an account",
+        "license": "License",
+        "pirate": "Pirate",
+        "form": {
+            "title": "Adding an account",
+            "email": "E-mail",
+            "pass": "Password",
+            "nick": "Nickname"
+        },
+        "no_accounts": {
+            "top": "You don't have accounts",
+            "bottom": "Add them!"
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "main": {
+            "title": "Main"
+        },
+        "java": {
+            "title": "Java"
+        },
+        "lang": {
+            "title": "Languages",
+            "current": "Current language",
+            "fallback": "Language 'just-in-case'"
+        }
+    },
+    "lang": {
+        "ru-RU": "Russian",
+        "en-US": "English",
+        "de-DE": "German",
+        "uk-UA": "Ukrainian",
+        "kk-KZ": "Kazakh",
+        "lv-LV": "Latvian",
+        "cn-CN": "Cartinese",
+        "lk-LK": "Language of Kolya",
+        "fz-FZ": "Language of Frayz"
+    },
+    "version": {
+        "no_version": {
+            "top": "Choose a version",
+            "bottom": "for play"
+        }
+    },
+    "play": "Play",
+    "post": {
+        "button": "Open"
+    },
+    "error": "Error"
+}

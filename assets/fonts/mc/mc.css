@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Minecraft';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("minecraft-1-1.woff2?v=3.13") format("woff2"),
+       url("minecraft-1-1.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Minecraft';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("minecraft-1-1.svg") format("svg");
+}

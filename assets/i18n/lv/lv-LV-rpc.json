@@ -1,0 +1,10 @@
+{
+    "playing": "Spēlē Minecraft",
+    "editions": {
+        "java": "Java Edition",
+        "bedrock": "Bedrock Edition\n",
+        "dungeons": "Dungeons"
+    },
+    "in_launcher": "Sēža launčerā",
+    "main_menu": "Galvenā izvēlne"
+}

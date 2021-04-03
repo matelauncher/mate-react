@@ -1,0 +1,72 @@
+{
+    "logs": {
+        "title": "Logs"
+    },
+    "credits": {
+        "title": "Danke"
+    },
+    "mods": {
+        "title": "Mods"
+    },
+    "skins": {
+        "title": "Skins",
+        "button_upload": "Skin auslasten",
+        "no_license": "Sie haben keine Lizenz version oder sie ist nicht ausgewählt"
+    },
+    "donate": {
+        "title": "Donat",
+        "content": "Donat ist optional, aber wenn Sie das Projekt unterstützen möchten, können Sie donaten."
+    },
+    "404": "Diese Seite existiert nicht.",
+    "accounts": {
+        "add": "Akkaunt ergänzen",
+        "license": "Lizenz versions",
+        "pirate": "Pirat version",
+        "form": {
+            "title": "Akkaunt ergänzen",
+            "email": "E-mail",
+            "pass": "Passwort",
+            "nick": "Nickname"
+        },
+        "no_accounts": {
+            "top": "Sie habed keine Akkaunten",
+            "bottom": "Ergänze ihr!"
+        }
+    },
+    "settings": {
+        "title": "Einstellungen",
+        "main": {
+            "title": "Basische"
+        },
+        "java": {
+            "title": "Java"
+        },
+        "lang": {
+            "title": "Sprachen",
+            "current": "Aktuelle Sprache",
+            "fallback": "Sprache 'nur für den Fall'"
+        }
+    },
+    "lang": {
+        "ru-RU": "Russisch",
+        "en-US": "Englisch",
+        "de-DE": "Deutsch",
+        "uk-UA": "Ukrainisch",
+        "kk-KZ": "Kasachisch",
+        "lv-LV": "Lettisch",
+        "cn-CN": "Kartisch",
+        "lk-LK": "Koli-Sprache",
+        "fz-FZ": "Freise-Sprache"
+    },
+    "version": {
+        "no_version": {
+            "top": "Wähle Version",
+            "bottom": "für Spiel"
+        }
+    },
+    "play": "Spiele",
+    "post": {
+        "button": "Lauf"
+    },
+    "error": "Error"
+}

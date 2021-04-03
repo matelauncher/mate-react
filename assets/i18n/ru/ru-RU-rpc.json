@@ -1,0 +1,10 @@
+{
+    "playing": "Играет в Minecraft",
+    "editions": {
+        "java": "Java Edition",
+        "bedrock": "Версия Bedrock",
+        "dungeons": "Dungeons"
+    },
+    "in_launcher": "Сидит в лаунчере",
+    "main_menu": "Главное меню"
+}

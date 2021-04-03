@@ -1,0 +1,17 @@
+{
+  "name": "mate-react",
+  "productName": "MATE Launcher",
+  "version": "2.3.0",
+  "description": "MATE Launcher",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "MATE Launcher Team",
+    "url": "https://github.com/matelauncher"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../.erb/scripts/BabelRegister.js ../.erb/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}

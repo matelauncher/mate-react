@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade-enter-active, .fade-leave-active {
+  transition-property: opacity;
+  transition-duration: .25s;
+}
+
+.fade-enter-active {
+  transition-delay: .25s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+
+canvas:focus {
+  outline: none;
+}
+
+.dropdown-enter-active, .dropdown-exit-active {
+  transition: opacity .25s;
+}
+.dropdown-enter-active {
+  opacity: 1!important;
+}
+.dropdown-enter, .dropdown-exit /* .fade-leave-active до версии 2.1.8 */ {
+  opacity: 0;
+}
+
+@import url('../assets/fonts/inter.css');
+@import url('../assets/fonts/mc/mc.css');
+@import url('../assets/button.css');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.minecraft {
+  font-family: 'Minecraft', sans-serif;
+}
+
+.bg-login {
+  background: url('../assets/img/addAccount.jpg') 50% 50% no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: #1e1e1e;
+  /*border: 1px solid #444 !important;*/
+}
+
+*::-webkit-scrollbar-thumb {
+  min-height: 28px;
+  background: #009147;
+  border-radius: 2px;
+  border-right: 1px solid #1e1e1e;
+}
+
+.wappdrag {
+  -webkit-app-region: drag;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+}
