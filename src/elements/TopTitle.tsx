@@ -9,7 +9,7 @@ const closeWindow = () => {
     close()
 }
 
-const Top = () => {
+const TopTitle = () => {
     return (
         <div className="h-8 w-full bg-mc-b300 fixed z-50 flex">
             <div className="h-full w-full text-white flex flex-row justify-between">
@@ -56,4 +56,4 @@ const Top = () => {
     )
 }
 
-export default Top
+export default TopTitle
