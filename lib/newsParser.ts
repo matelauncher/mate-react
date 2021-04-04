@@ -1,7 +1,9 @@
 import cheerio from 'cheerio'
 
+export interface Post { img: string, title: string, desc: string, link: string, date: string } 
+
 export const parse = (html: string) => {
-    const data: { img: string, title: string, desc: string, link: string, date: string }[] = []
+    const data: Post[] = []
 
     const $ = cheerio.load(html);
 

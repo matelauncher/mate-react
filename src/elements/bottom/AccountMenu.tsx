@@ -1,5 +1,5 @@
 import React from 'react'
-import { getVersion, Version, setVersion, getAccounts, Account, selectAccount } from '../../lib/userSettings'
+import { getVersion, Version, setVersion, getAccounts, Account, selectAccount } from '../../../lib/userSettings'
 import CSSTransition from 'react-transition-group/CSSTransition'
 import { useTranslation } from 'react-i18next'
 

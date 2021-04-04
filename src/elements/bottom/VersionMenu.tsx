@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { getVersion, Version } from '../../lib/userSettings'
+import { getVersion, Version } from '../../../lib/userSettings'
 import CSSTransition from 'react-transition-group/CSSTransition'
-import { VersionsObject } from '../../lib/versions'
+import { VersionsObject } from '../../../lib/versions'
 
 const VersionMenu = (props: { 
     isVersionsOpen: boolean, 
