@@ -7,8 +7,8 @@ import { Authenticator  } from 'minecraft-launcher-core'
 import { VersionsObject } from '../../lib/versions'
 import { getVersion, Version, setVersion, getAccounts, Account, selectAccount } from '../../lib/userSettings'
 import { hide, show } from '../../lib/electron-window'
-import AccountMenu from './AccountMenu'
-import VersionMenu from './VersionMenu'
+import AccountMenu from './bottom/AccountMenu'
+import VersionMenu from './bottom/VersionMenu'
 
 
 const buttonClassOpen = (bool: boolean) => 

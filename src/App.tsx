@@ -5,7 +5,7 @@ import Bottom from './elements/Bottom';
 import TopMenu from './elements/TopMenu';
 import TopTitle from './elements/TopTitle';
 import News from './tabs/News';
-import { parse } from '../lib/newsParser'
+import { parse, Post } from '../lib/newsParser'
 import { getHTML } from '../lib/utils'
 import { getVersions, VersionsObject } from '../lib/versions'
 import { Version, getVersion, getAccounts, Account } from '../lib/userSettings'
@@ -15,7 +15,7 @@ import AddAccount from './tabs/AddAccount';
 const Hello = () => {
   const [tab, setTab] = useState('news')
 
-  const [posts, setPosts] = useState<{ img: string, title: string, desc: string, link: string, date: string }[]>([])
+  const [posts, setPosts] = useState<Post[]>([])
   const [versions, setVersions] = useState<VersionsObject>({ latest: {}, versions: [] })
   const [isRunning, setRunning] = useState(false)
   const [accounts, setUserAccounts] = useState<{ selected?: Account, accounts: Account[] }>({ accounts: [] })
