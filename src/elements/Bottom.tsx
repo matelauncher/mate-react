@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { platform, isEmptyObject } from '../../lib/utils'
-import launcher, { mcPath, launcherClass } from '../../lib/launcher'
+import launcher, { getMCPath, launcherClass } from '../../lib/launcher'
 import MCButton from './MCButton'
 import { useTranslation } from 'react-i18next'
 import { Authenticator  } from 'minecraft-launcher-core'
@@ -53,7 +53,7 @@ const Bottom = (props: {
 
     const launch = () => {
         launcherClass.launch({
-            root: mcPath,
+            root: getMCPath(platform),
             version: {
                 number: version.id!,
                 type: version.type!

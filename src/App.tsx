@@ -8,7 +8,7 @@ import News from './tabs/News';
 import { parse, Post } from '../lib/newsParser'
 import { getHTML } from '../lib/utils'
 import { getVersions, VersionsObject } from '../lib/versions'
-import { Version, getVersion, getAccounts, Account } from '../lib/userSettings'
+import { Version, getAccounts, Account } from '../lib/userSettings'
 import AddAccount from './tabs/AddAccount';
 
 
