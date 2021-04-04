@@ -29,7 +29,7 @@ const Top = () => {
                     </div>
                 </div>
                 <div className="w-full wappdrag flex flex-row-reverse">
-                    <img className="mt-1 mr-2 h-6 w-6 " src="../assets/img/icon.png" alt="MATE" />
+                    <img className="mt-1 mr-1 h-6 w-6 " src="../assets/img/mate_logo.png" alt="MATE" />
                 </div>
                 </>
                 )
@@ -37,7 +37,7 @@ const Top = () => {
                 (
                 <>
                 <div className="w-full wappdrag">
-                    <img className="mt-1 ml-2 h-6 w-6" src="../assets/img/icon.png" alt="MATE" />
+                    <img className="mt-1 ml-1 h-6 w-6" src="../assets/img/mate_logo.png" alt="MATE" />
                 </div>
                 <div className="self-end flex flex-row">
                     <button onClick={() => minimize()} className="ui-btn minimize flex justify-center focus:outline-none items-center">

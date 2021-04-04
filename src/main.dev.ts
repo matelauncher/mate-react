@@ -76,7 +76,7 @@ const createWindow = async () => {
     show: false,
     width: 960, 
     height: 600,
-    icon: getAssetPath('./img/icon.png'),
+    icon: getAssetPath('./img/mate_logo.png'),
     webPreferences: {
       nodeIntegration: true,
       enableRemoteModule: true,
@@ -114,7 +114,7 @@ const createWindow = async () => {
     mainWindow = null;
   });
 
-  const tray = new Tray(getAssetPath('./img/icon.png'))
+  const tray = new Tray(getAssetPath('./img/mate_logo.png'))
   // TODO: i18n
   const contextMenu = Menu.buildFromTemplate([
     { 
