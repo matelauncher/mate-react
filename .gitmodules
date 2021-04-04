@@ -1,0 +1,3 @@
+[submodule "assets/i18n"]
+	path = assets/i18n
+	url = https://github.com/matelauncher/i18n.git
