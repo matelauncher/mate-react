@@ -29,3 +29,9 @@ If you want to donate to MATE Launcher Team go to [DonationAlerts](https://donat
 # Roadmap
 
 The [Roadmap](https://github.com/orgs/matelauncher/projects/1) helps MATE Launcher Team to create a great launcher!
+
+# Credits
+
+- [MCLC](https://github.com/Pierce01/MinecraftLauncher-Core) for awesome library to launch Minecraft
+- [Ezzer29](https://github.com/Ezzer29) for giving me link to Minecraft's versions
+- All awesome people that helped make i18n
